@@ -1,0 +1,6 @@
+#endpoint: ""
+endpoint: https://eu1.prisma.sh/derekoware47-05f16e/hackernews-node/dev
+datamodel: datamodel.graphql
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
